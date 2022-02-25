@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T11:12:18.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="YvFB2bY9kuiUy_WMwYNA" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T11:18:32.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="5bxwT1I4coJ_ERRX8HMO" version="16.5.6" type="github">
   <diagram id="yhKweA5VbCMmsTNcMobQ" name="Page-1">
     <mxGraphModel dx="1422" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="40" y="110" width="780" height="560" as="geometry" />
         </mxCell>
         <mxCell id="7ADdNedlcQ4gWojdDxL4-28" value="Amazon Kinesis Data Firehose" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.kinesis_data_firehose;" vertex="1" parent="7ADdNedlcQ4gWojdDxL4-2">
-          <mxGeometry x="240" width="45" height="100" as="geometry" />
+          <mxGeometry x="200" width="45" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7ADdNedlcQ4gWojdDxL4-30" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="7ADdNedlcQ4gWojdDxL4-2">
           <mxGeometry x="370" width="50" height="80" as="geometry" />
@@ -25,7 +25,7 @@
             <mxPoint x="410" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ADdNedlcQ4gWojdDxL4-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="7ADdNedlcQ4gWojdDxL4-2" target="7ADdNedlcQ4gWojdDxL4-30">
+        <mxCell id="7ADdNedlcQ4gWojdDxL4-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.933;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7ADdNedlcQ4gWojdDxL4-2" source="7ADdNedlcQ4gWojdDxL4-28" target="7ADdNedlcQ4gWojdDxL4-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="40" as="sourcePoint" />
             <mxPoint x="410" y="260" as="targetPoint" />
@@ -218,6 +218,18 @@
             <Array as="points">
               <mxPoint x="154" y="220" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ADdNedlcQ4gWojdDxL4-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7ADdNedlcQ4gWojdDxL4-13" target="7ADdNedlcQ4gWojdDxL4-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ADdNedlcQ4gWojdDxL4-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7ADdNedlcQ4gWojdDxL4-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204.08743377571454" y="430" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
