@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T12:13:48.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="suO9veeKo9haVxDzztsf" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T12:17:47.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PuiZpLPSwsWEOEjs0sEp" version="16.6.4" type="github">
   <diagram id="yhKweA5VbCMmsTNcMobQ" name="Page-1">
     <mxGraphModel dx="1422" dy="1162" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,6 +57,18 @@
         </mxCell>
         <mxCell id="7ADdNedlcQ4gWojdDxL4-45" value="spectrum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;" parent="7ADdNedlcQ4gWojdDxL4-10" vertex="1">
           <mxGeometry x="209" y="64.37" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsYlIM9cpNHZpiKihST7-8" value="Amazon Glacier" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.glacier;" vertex="1" parent="7ADdNedlcQ4gWojdDxL4-10">
+          <mxGeometry x="162" y="144" width="36" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="7ADdNedlcQ4gWojdDxL4-41" value="Amazon Redshift" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.redshift;" parent="7ADdNedlcQ4gWojdDxL4-10" vertex="1">
+          <mxGeometry x="160" y="56" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zsYlIM9cpNHZpiKihST7-10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="7ADdNedlcQ4gWojdDxL4-10" source="7ADdNedlcQ4gWojdDxL4-41" target="zsYlIM9cpNHZpiKihST7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="74" y="-22" as="sourcePoint" />
+            <mxPoint x="124" y="-72" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7ADdNedlcQ4gWojdDxL4-11" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="7ADdNedlcQ4gWojdDxL4-3" vertex="1">
           <mxGeometry x="443" y="70" width="310" height="100" as="geometry" />
@@ -122,9 +134,6 @@
             <mxPoint x="136.5" y="337.81500000000005" as="sourcePoint" />
             <mxPoint x="200" y="338" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7ADdNedlcQ4gWojdDxL4-41" value="Amazon Redshift" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.redshift;" parent="7ADdNedlcQ4gWojdDxL4-3" vertex="1">
-          <mxGeometry x="200" y="254.37" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UInEQlLYZHfzDErxerFb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4D9900;" parent="7ADdNedlcQ4gWojdDxL4-3" source="7ADdNedlcQ4gWojdDxL4-15" edge="1">
           <mxGeometry relative="1" as="geometry">
