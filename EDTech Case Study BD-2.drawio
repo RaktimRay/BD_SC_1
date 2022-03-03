@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T12:18:18.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0JaX1ZXeszAWpYLmD6l4" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T12:19:06.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="x_-wVQzHu9SSEW-PI8aQ" version="16.6.4" type="github">
   <diagram id="7Q6d0gSe2RfeiBhIu6H1" name="Page-1">
     <mxGraphModel dx="1872" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,13 +32,13 @@
           <mxGeometry x="280" y="100" width="45" height="46.8" as="geometry" />
         </mxCell>
         <mxCell id="iw8xefliiGtKPW58excf-9" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;" parent="qzB6tSZT5ePcG6Z2w_7R-4" vertex="1">
-          <mxGeometry x="660" y="220" width="48" height="48" as="geometry" />
+          <mxGeometry x="665.25" y="240" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="iw8xefliiGtKPW58excf-10" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glacier;" parent="qzB6tSZT5ePcG6Z2w_7R-4" vertex="1">
-          <mxGeometry x="550" y="220" width="48" height="48" as="geometry" />
+          <mxGeometry x="560" y="240" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="iw8xefliiGtKPW58excf-12" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="qzB6tSZT5ePcG6Z2w_7R-4" vertex="1">
-          <mxGeometry x="740" y="210" width="48" height="48" as="geometry" />
+          <mxGeometry x="780" y="240" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="iw8xefliiGtKPW58excf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="qzB6tSZT5ePcG6Z2w_7R-4" source="iw8xefliiGtKPW58excf-13" target="iw8xefliiGtKPW58excf-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -156,14 +156,6 @@
         </mxCell>
         <mxCell id="iw8xefliiGtKPW58excf-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" parent="1" vertex="1">
           <mxGeometry x="-20" y="260" width="28" height="27.28" as="geometry" />
-        </mxCell>
-        <mxCell id="iw8xefliiGtKPW58excf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="iw8xefliiGtKPW58excf-12" target="iw8xefliiGtKPW58excf-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="844" y="420" />
-              <mxPoint x="-6" y="420" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
